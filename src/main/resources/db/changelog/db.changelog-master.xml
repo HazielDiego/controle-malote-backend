@@ -8,4 +8,6 @@
     <include file="db/changelog/db.changelog-0.0.3.xml"/>  <!-- create table mt_user_has_my_role -->
     <include file="db/changelog/db.changelog-0.0.4.xml"/>  <!-- update table my_role -->
     <include file="db/changelog/db.changelog-0.0.5.xml"/>  <!-- create and seed table tipo_de_conteudo  -->
+    <include file="db/changelog/db.changelog-0.0.6.xml"/>  <!-- create table municipio  -->
+    <include file="db/changelog/db.changelog-0.0.7.xml"/>  <!-- seed table municipio  -->
 </databaseChangeLog>

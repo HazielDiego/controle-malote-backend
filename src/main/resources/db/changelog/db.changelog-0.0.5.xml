@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <changeSet author="wagner" id="CRIAR TABELA TIPO DE CONTEUDO">
+        <createTable tableName="tipo_de_conteudo" catalogName="public">
+            <column name="id" type="bigint" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false" />
+            </column>
+            <column name="descricao" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet id="SEED TIPO DE CONTEUDO" author="wagner">
+        <insert tableName="tipo_de_conteudo" catalogName="public">
+            <column name="descricao" value="VAZIO" />
+        </insert>
+        <insert tableName="tipo_de_conteudo" catalogName="public">
+            <column name="descricao" value="CI" />
+        </insert>
+        <insert tableName="tipo_de_conteudo" catalogName="public">
+            <column name="descricao" value="OFÍCIO" />
+        </insert>
+        <insert tableName="tipo_de_conteudo" catalogName="public">
+            <column name="descricao" value="UNIFORME" />
+        </insert>
+        <insert tableName="tipo_de_conteudo" catalogName="public">
+            <column name="descricao" value="MATERIAL" />
+        </insert>
+        <insert tableName="tipo_de_conteudo" catalogName="public">
+            <column name="descricao" value="AIT" />
+        </insert>
+    </changeSet>
+
+</databaseChangeLog>

@@ -11,4 +11,5 @@
     <include file="db/changelog/db.changelog-0.0.6.xml"/>  <!-- create table municipio  -->
     <include file="db/changelog/db.changelog-0.0.7.xml"/>  <!-- seed table municipio  -->
     <include file="db/changelog/db.changelog-0.0.8.xml"/>  <!-- seed table tipo_unidade_administrativa  -->
+    <include file="db/changelog/db.changelog-0.0.9.xml"/>  <!-- seed table status_monitoramento_de_malote  -->
 </databaseChangeLog>

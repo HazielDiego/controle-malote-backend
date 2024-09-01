@@ -10,6 +10,9 @@
     <include file="db/changelog/db.changelog-0.0.5.xml"/>  <!-- create and seed table tipo_de_conteudo  -->
     <include file="db/changelog/db.changelog-0.0.6.xml"/>  <!-- create table municipio  -->
     <include file="db/changelog/db.changelog-0.0.7.xml"/>  <!-- seed table municipio  -->
-    <include file="db/changelog/db.changelog-0.0.8.xml"/>  <!-- seed table tipo_unidade_administrativa  -->
-    <include file="db/changelog/db.changelog-0.0.9.xml"/>  <!-- seed table status_monitoramento_de_malote  -->
+    <include file="db/changelog/db.changelog-0.0.8.xml"/>  <!-- create and seet table tipo_unidade_administrativa  -->
+    <include file="db/changelog/db.changelog-0.0.9.xml"/>  <!-- create and seed table status_monitoramento_de_malote  -->
+    <include file="db/changelog/db.changelog-0.0.10.xml"/>  <!-- create table unidade_administrativa  -->
+    <include file="db/changelog/db.changelog-0.0.11.xml"/>  <!-- seed table unidade_administrativa  -->
+    <include file="db/changelog/db.changelog-0.0.12.xml"/>  <!-- create table malote  -->
 </databaseChangeLog>

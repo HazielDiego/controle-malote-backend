@@ -10,4 +10,5 @@
     <include file="db/changelog/db.changelog-0.0.5.xml"/>  <!-- create and seed table tipo_de_conteudo  -->
     <include file="db/changelog/db.changelog-0.0.6.xml"/>  <!-- create table municipio  -->
     <include file="db/changelog/db.changelog-0.0.7.xml"/>  <!-- seed table municipio  -->
+    <include file="db/changelog/db.changelog-0.0.8.xml"/>  <!-- seed table tipo_unidade_administrativa  -->
 </databaseChangeLog>

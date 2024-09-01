@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <changeSet author="wagner" id="SEED TABELA UNIDADE_ADMINISTRATIVA">
+        <sql>
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('Agência VIP Sinop', 2, '297314');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('Agência Vip Sorriso', 2, '10399869');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('02ª - Rondonópolis', 1, '296938');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('03ª - Barra do Garças', 1, '296946');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('04ª - Cáceres', 1, '296948');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('06ª - Rosário Oeste', 1, '296955');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('07ª - Alto Araguaia', 1, '296956');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('08ª - Barra do Bugres', 1, '296958');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('09ª - Diamantino', 1, '296959');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('10ª - Chapada dos Guimarães', 1, '296960');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('11ª - Guiratinga', 1, '296963');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('12ª - Poxoréu', 1, '296964');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('13ª - Dom Aquino', 1, '296967');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('14ª - Arenápolis', 1, '10399844');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('15ª - Poconé', 1, '296969');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('16ª - Alto Garças', 1, '297002');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('17ª - Nortelândia', 1, '297299');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('18ª - Jaciara', 1, '297006');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('19ª - Sinop', 1, '297004');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('20ª - Alta Floresta', 1, '297007');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('21ª - São Félix do Araguaia', 1, '297009');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('22ª - Tangará da Serra', 1, '297010');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('23ª - Juara', 1, '297013');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('24ª - Água Boa', 1, '297017');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('25ª - Juína', 1, '297020');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('26ª - Mirassol D''Oeste', 1, '297093');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('27ª - Pontes e Lacerda', 1, '297022');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('28ª - São José dos Quatro Marcos', 1, '297025');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('29ª - Nova Xavantina', 1, '297029');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('30ª - Paranatinga', 1, '297096');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('31ª - Canarana', 1, '297097');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('32ª - Peixoto de Azevedo', 1, '297101');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('33ª - Porto dos Gaúchos', 1, '297102');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('34ª - Colíder', 1, '297103');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('35ª - São José do Rio Claro', 1, '297104');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('36ª - Torixoréu', 1, '297109');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('37ª - Sorriso', 1, '297112');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('38ª - Santo Antônio de Leverger', 1, '10399843');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('39ª - Araputanga', 1, '297114');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('40ª - Primavera do Leste', 1, '297115');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('41ª - Pedra Preta', 1, '297125');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('42ª - Comodoro', 1, '10399872');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('43ª - Jauru', 1, '297130');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('44ª - Nova Mutum', 1, '297131');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('45ª - Cláudia', 1, '297132');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('46ª - Guarantã do Norte', 1, '297134');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('47ª - Vila Rica', 1, '297135');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('48ª - Rio Branco', 1, '297136');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('49ª - Lucas do Rio Verde', 1, '297137');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('49ª - Lucas do Rio Verde', 1, '297137');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('50ª - Campo Novo dos Parecis', 1, '297140');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('51ª - Campo Verde', 1, '297141');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('52ª - Terra Nova do Norte', 1, '297143');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('53ª - Nova Olímpia', 1, '297144');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('54ª - Nobres', 1, '297152');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('55ª - Vera', 1, '297154');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('56ª - Marcelândia', 1, '297155');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('57ª - Sapezal', 1, '297156');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('58ª - Tapurah', 1, '335789');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('59ª - Vila Bela da Santíssima Trindade', 1, '297158');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('60ª - Brasnorte', 1, '297160');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('61ª - Confresa', 1, '297161');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('62ª - Aripuanã', 1, '10399871');
+            INSERT INTO unidade_administrativa (nome, tipo_unidade_administrativa, percurso) VALUES ('64ª - Colniza', 1, '297164');
+        </sql>
+    </changeSet>
+
+</databaseChangeLog>

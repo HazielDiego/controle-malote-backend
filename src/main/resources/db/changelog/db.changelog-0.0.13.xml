@@ -4,30 +4,30 @@
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
 
-    <changeSet author="wagner" id="CRIAR TABELA UNIDADE_ADMINISTRATIVA">
-        <createTable tableName="unidade_administrativa" catalogName="public">
+    <changeSet author="wagner" id="CRIAR TABELA CONTROLE_DE_ACESSO">
+        <createTable tableName="controle_de_acesso" catalogName="public">
             <column name="id" type="bigint" autoIncrement="true">
                 <constraints primaryKey="true" nullable="false"/>
             </column>
             <column name="nome" type="varchar(255)">
                 <constraints nullable="false"/>
             </column>
-            <column name="percurso" type="varchar(255)">
+            <column name="cpf" type="varchar(255)">
                 <constraints nullable="true"/>
-            </column>
-            <column name="tipo_unidade_administrativa" type="bigint">
-                <constraints nullable="false"
-                             foreignKeyName="fk_unid_adm_tipo_unid_adm"
-                             references="tipo_unidade_administrativa(id)"
-                />
             </column>
             <column name="municipio" type="bigint">
                 <constraints nullable="false"
-                             foreignKeyName="fk_unid_adm_municipio"
+                             foreignKeyName="fk_controle_acesso_municipio"
                              references="municipio(id)"
                 />
             </column>
         </createTable>
     </changeSet>
-
+    <changeSet author="wagner" id="ADICIONA UNIQUE CONTRAINT PARA CONTROLE_DE_ACESSO">
+        <addUniqueConstraint
+                columnNames="cpf, municipio"
+                constraintName="cpf_municipio_unique"
+                tableName="controle_de_acesso"
+        />
+    </changeSet>
 </databaseChangeLog>

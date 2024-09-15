@@ -6,162 +6,147 @@
 
     <changeSet id="SEED TABELA MUNICIPIO" author="wagner">
         <sql>
-            INSERT INTO public.municipio (nome)
-            VALUES ('ACORIZAL'),
-            ('ÁGUA BOA'),
-            ('ALTA FLORESTA'),
-            ('ALTO ARAGUAIA'),
-            ('ALTO BOA VISTA'),
-            ('ALTO GARÇAS'),
-            ('ALTO PARAGUAI'),
-            ('ALTO TAQUARI'),
-            ('APIACÁS'),
-            ('ARAGUAIANA');
-            INSERT INTO public.municipio (nome)
-            VALUES ('ARAGUAINHA'),
-            ('ARAPUTANGA'),
-            ('ARENÁPOLIS'),
-            ('ARIPUANÃ'),
-            ('BARÃO DE MELGAÇO'),
-            ('BARRA DO BUGRES'),
-            ('BARRA DO GARÇAS'),
-            ('BOM JESUS DO ARAGUAIA'),
-            ('BRASNORTE'),
-            ('CÁCERES');
-            INSERT INTO public.municipio (nome)
-            VALUES ('CAMPINÁPOLIS'),
-            ('CAMPO NOVO DO PARECIS'),
-            ('CAMPO VERDE'),
-            ('CAMPOS DE JÚLIO'),
-            ('CANABRAVA DO NORTE'),
-            ('CANARANA'),
-            ('CARLINDA'),
-            ('CASTANHEIRA'),
-            ('CHAPADA DOS GUIMARÃES'),
-            ('CLÁUDIA');
-            INSERT INTO public.municipio (nome)
-            VALUES ('COCALINHO'),
-            ('COLÍDER'),
-            ('COLNIZA'),
-            ('COMODORO'),
-            ('CONFRESA'),
-            ('CONQUISTA D''OESTE'),
-            ('COTRIGUAÇU'),
-            ('CUIABÁ'),
-            ('CURVELÂNDIA'),
-            ('DENISE');
-            INSERT INTO public.municipio (nome)
-            VALUES ('DIAMANTINO'),
-            ('DOM AQUINO'),
-            ('FELIZ NATAL'),
-            ('FIGUEIRÓPOLIS D''OESTE'),
-            ('GAÚCHA DO NORTE'),
-            ('GENERAL CARNEIRO'),
-            ('GLÓRIA D''OESTE'),
-            ('GUARANTÃ DO NORTE'),
-            ('GUIRATINGA'),
-            ('INDIAVAÍ');
-            INSERT INTO public.municipio (nome)
-            VALUES ('IPIRANGA DO NORTE'),
-            ('ITANHANGÁ'),
-            ('ITAÚBA'),
-            ('ITIQUIRA'),
-            ('JACIARA'),
-            ('JANGADA'),
-            ('JAURU'),
-            ('JUARA'),
-            ('JUÍNA'),
-            ('JURUENA');
-            INSERT INTO public.municipio (nome)
-            VALUES ('JUSCIMEIRA'),
-            ('LAMBARI D''OESTE'),
-            ('LUCAS DO RIO VERDE'),
-            ('LUCIARA'),
-            ('MARCELÂNDIA'),
-            ('MATUPÁ'),
-            ('MIRASSOL D''OESTE'),
-            ('NOBRES'),
-            ('NORTELÂNDIA'),
-            ('NOSSA SENHORA DO LIVRAMENTO');
-            INSERT INTO public.municipio (nome)
-            VALUES ('NOVA BANDEIRANTES'),
-            ('NOVA BRASILÂNDIA'),
-            ('NOVA CANAÃ DO NORTE'),
-            ('NOVA GUARITA'),
-            ('NOVA LACERDA'),
-            ('NOVA MARILÂNDIA'),
-            ('NOVA MARINGÁ'),
-            ('NOVA MONTE VERDE'),
-            ('NOVA MUTUM'),
-            ('NOVA NAZARÉ');
-            INSERT INTO public.municipio (nome)
-            VALUES ('NOVA OLÍMPIA'),
-            ('NOVA SANTA HELENA'),
-            ('NOVA UBIRATÃ'),
-            ('NOVA XAVANTINA'),
-            ('NOVO HORIZONTE DO NORTE'),
-            ('NOVO MUNDO'),
-            ('NOVO SANTO ANTÔNIO'),
-            ('NOVO SÃO JOAQUIM'),
-            ('PARANAÍTA'),
-            ('PARANATINGA');
-            INSERT INTO public.municipio (nome)
-            VALUES ('PEDRA PRETA'),
-            ('PEIXOTO DE AZEVEDO'),
-            ('PLANALTO DA SERRA'),
-            ('POCONÉ'),
-            ('PONTAL DO ARAGUAIA'),
-            ('PONTE BRANCA'),
-            ('PONTES E LACERDA'),
-            ('PORTO ALEGRE DO NORTE'),
-            ('PORTO DOS GAÚCHOS'),
-            ('PORTO ESPERIDIÃO');
-            INSERT INTO public.municipio (nome)
-            VALUES ('PORTO ESTRELA'),
-            ('POXORÉU'),
-            ('PRIMAVERA DO LESTE'),
-            ('QUERÊNCIA'),
-            ('RESERVA DO CABAÇAL'),
-            ('RIBEIRÃO CASCALHEIRA'),
-            ('RIBEIRÃOZINHO'),
-            ('RIO BRANCO'),
-            ('RONDOLÂNDIA'),
-            ('RONDONÓPOLIS');
-            INSERT INTO public.municipio (nome)
-            VALUES ('ROSÁRIO OESTE'),
-            ('SALTO DO CÉU'),
-            ('SANTA CARMEM'),
-            ('SANTA CRUZ DO XINGU'),
-            ('SANTA RITA DO TRIVELATO'),
-            ('SANTA TEREZINHA'),
-            ('SANTO AFONSO'),
-            ('SANTO ANTÔNIO DO LESTE'),
-            ('SANTO ANTÔNIO DO LEVERGER'),
-            ('SÃO FÉLIX DO ARAGUAIA');
-            INSERT INTO public.municipio (nome)
-            VALUES ('SÃO JOSÉ DO POVO'),
-            ('SÃO JOSÉ DO RIO CLARO'),
-            ('SÃO JOSÉ DO XINGU'),
-            ('SÃO JOSÉ DOS QUATRO MARCOS'),
-            ('SÃO PEDRO DA CIPA'),
-            ('SAPEZAL'),
-            ('SERRA NOVA DOURADA'),
-            ('SINOP'),
-            ('SORRISO'),
-            ('TABAPORÃ');
-            INSERT INTO public.municipio (nome)
-            VALUES ('TANGARÁ DA SERRA'),
-            ('TAPURAH'),
-            ('TERRA NOVA DO NORTE'),
-            ('TESOURO'),
-            ('TORIXORÉU'),
-            ('UNIÃO DO SUL'),
-            ('VALE DE SÃO DOMINGOS'),
-            ('VÁRZEA GRANDE'),
-            ('VERA'),
-            ('VILA BELA DA SANTÍSSIMA TRINDADE');
-            INSERT INTO public.municipio (nome)
-            VALUES ('VILA RICA');
+            INSERT INTO public.municipio (id, nome) VALUES(1, 'ACORIZAL');
+            INSERT INTO public.municipio (id, nome) VALUES(2, 'ÁGUA BOA');
+            INSERT INTO public.municipio (id, nome) VALUES(3, 'ALTA FLORESTA');
+            INSERT INTO public.municipio (id, nome) VALUES(4, 'ALTO ARAGUAIA');
+            INSERT INTO public.municipio (id, nome) VALUES(5, 'ALTO BOA VISTA');
+            INSERT INTO public.municipio (id, nome) VALUES(6, 'ALTO GARÇAS');
+            INSERT INTO public.municipio (id, nome) VALUES(7, 'ALTO PARAGUAI');
+            INSERT INTO public.municipio (id, nome) VALUES(8, 'ALTO TAQUARI');
+            INSERT INTO public.municipio (id, nome) VALUES(9, 'APIACÁS');
+            INSERT INTO public.municipio (id, nome) VALUES(10, 'ARAGUAIANA');
+            INSERT INTO public.municipio (id, nome) VALUES(11, 'ARAGUAINHA');
+            INSERT INTO public.municipio (id, nome) VALUES(12, 'ARAPUTANGA');
+            INSERT INTO public.municipio (id, nome) VALUES(13, 'ARENÁPOLIS');
+            INSERT INTO public.municipio (id, nome) VALUES(14, 'ARIPUANÃ');
+            INSERT INTO public.municipio (id, nome) VALUES(15, 'BARÃO DE MELGAÇO');
+            INSERT INTO public.municipio (id, nome) VALUES(16, 'BARRA DO BUGRES');
+            INSERT INTO public.municipio (id, nome) VALUES(17, 'BARRA DO GARÇAS');
+            INSERT INTO public.municipio (id, nome) VALUES(18, 'BOM JESUS DO ARAGUAIA');
+            INSERT INTO public.municipio (id, nome) VALUES(19, 'BRASNORTE');
+            INSERT INTO public.municipio (id, nome) VALUES(20, 'CÁCERES');
+            INSERT INTO public.municipio (id, nome) VALUES(21, 'CAMPINÁPOLIS');
+            INSERT INTO public.municipio (id, nome) VALUES(22, 'CAMPO NOVO DO PARECIS');
+            INSERT INTO public.municipio (id, nome) VALUES(23, 'CAMPO VERDE');
+            INSERT INTO public.municipio (id, nome) VALUES(24, 'CAMPOS DE JÚLIO');
+            INSERT INTO public.municipio (id, nome) VALUES(25, 'CANABRAVA DO NORTE');
+            INSERT INTO public.municipio (id, nome) VALUES(26, 'CANARANA');
+            INSERT INTO public.municipio (id, nome) VALUES(27, 'CARLINDA');
+            INSERT INTO public.municipio (id, nome) VALUES(28, 'CASTANHEIRA');
+            INSERT INTO public.municipio (id, nome) VALUES(29, 'CHAPADA DOS GUIMARÃES');
+            INSERT INTO public.municipio (id, nome) VALUES(30, 'CLÁUDIA');
+            INSERT INTO public.municipio (id, nome) VALUES(31, 'COCALINHO');
+            INSERT INTO public.municipio (id, nome) VALUES(32, 'COLÍDER');
+            INSERT INTO public.municipio (id, nome) VALUES(33, 'COLNIZA');
+            INSERT INTO public.municipio (id, nome) VALUES(34, 'COMODORO');
+            INSERT INTO public.municipio (id, nome) VALUES(35, 'CONFRESA');
+            INSERT INTO public.municipio (id, nome) VALUES(36, 'CONQUISTA D''OESTE');
+            INSERT INTO public.municipio (id, nome) VALUES(37, 'COTRIGUAÇU');
+            INSERT INTO public.municipio (id, nome) VALUES(38, 'CUIABÁ');
+            INSERT INTO public.municipio (id, nome) VALUES(39, 'CURVELÂNDIA');
+            INSERT INTO public.municipio (id, nome) VALUES(40, 'DENISE');
+            INSERT INTO public.municipio (id, nome) VALUES(41, 'DIAMANTINO');
+            INSERT INTO public.municipio (id, nome) VALUES(42, 'DOM AQUINO');
+            INSERT INTO public.municipio (id, nome) VALUES(43, 'FELIZ NATAL');
+            INSERT INTO public.municipio (id, nome) VALUES(44, 'FIGUEIRÓPOLIS D''OESTE');
+            INSERT INTO public.municipio (id, nome) VALUES(45, 'GAÚCHA DO NORTE');
+            INSERT INTO public.municipio (id, nome) VALUES(46, 'GENERAL CARNEIRO');
+            INSERT INTO public.municipio (id, nome) VALUES(47, 'GLÓRIA D''OESTE');
+            INSERT INTO public.municipio (id, nome) VALUES(48, 'GUARANTÃ DO NORTE');
+            INSERT INTO public.municipio (id, nome) VALUES(49, 'GUIRATINGA');
+            INSERT INTO public.municipio (id, nome) VALUES(50, 'INDIAVAÍ');
+            INSERT INTO public.municipio (id, nome) VALUES(51, 'IPIRANGA DO NORTE');
+            INSERT INTO public.municipio (id, nome) VALUES(52, 'ITANHANGÁ');
+            INSERT INTO public.municipio (id, nome) VALUES(53, 'ITAÚBA');
+            INSERT INTO public.municipio (id, nome) VALUES(54, 'ITIQUIRA');
+            INSERT INTO public.municipio (id, nome) VALUES(55, 'JACIARA');
+            INSERT INTO public.municipio (id, nome) VALUES(56, 'JANGADA');
+            INSERT INTO public.municipio (id, nome) VALUES(57, 'JAURU');
+            INSERT INTO public.municipio (id, nome) VALUES(58, 'JUARA');
+            INSERT INTO public.municipio (id, nome) VALUES(59, 'JUÍNA');
+            INSERT INTO public.municipio (id, nome) VALUES(60, 'JURUENA');
+            INSERT INTO public.municipio (id, nome) VALUES(61, 'JUSCIMEIRA');
+            INSERT INTO public.municipio (id, nome) VALUES(62, 'LAMBARI D''OESTE');
+            INSERT INTO public.municipio (id, nome) VALUES(63, 'LUCAS DO RIO VERDE');
+            INSERT INTO public.municipio (id, nome) VALUES(64, 'LUCIARA');
+            INSERT INTO public.municipio (id, nome) VALUES(65, 'MARCELÂNDIA');
+            INSERT INTO public.municipio (id, nome) VALUES(66, 'MATUPÁ');
+            INSERT INTO public.municipio (id, nome) VALUES(67, 'MIRASSOL D''OESTE');
+            INSERT INTO public.municipio (id, nome) VALUES(68, 'NOBRES');
+            INSERT INTO public.municipio (id, nome) VALUES(69, 'NORTELÂNDIA');
+            INSERT INTO public.municipio (id, nome) VALUES(70, 'NOSSA SENHORA DO LIVRAMENTO');
+            INSERT INTO public.municipio (id, nome) VALUES(71, 'NOVA BANDEIRANTES');
+            INSERT INTO public.municipio (id, nome) VALUES(72, 'NOVA BRASILÂNDIA');
+            INSERT INTO public.municipio (id, nome) VALUES(73, 'NOVA CANAÃ DO NORTE');
+            INSERT INTO public.municipio (id, nome) VALUES(74, 'NOVA GUARITA');
+            INSERT INTO public.municipio (id, nome) VALUES(75, 'NOVA LACERDA');
+            INSERT INTO public.municipio (id, nome) VALUES(76, 'NOVA MARILÂNDIA');
+            INSERT INTO public.municipio (id, nome) VALUES(77, 'NOVA MARINGÁ');
+            INSERT INTO public.municipio (id, nome) VALUES(78, 'NOVA MONTE VERDE');
+            INSERT INTO public.municipio (id, nome) VALUES(79, 'NOVA MUTUM');
+            INSERT INTO public.municipio (id, nome) VALUES(80, 'NOVA NAZARÉ');
+            INSERT INTO public.municipio (id, nome) VALUES(81, 'NOVA OLÍMPIA');
+            INSERT INTO public.municipio (id, nome) VALUES(82, 'NOVA SANTA HELENA');
+            INSERT INTO public.municipio (id, nome) VALUES(83, 'NOVA UBIRATÃ');
+            INSERT INTO public.municipio (id, nome) VALUES(84, 'NOVA XAVANTINA');
+            INSERT INTO public.municipio (id, nome) VALUES(85, 'NOVO HORIZONTE DO NORTE');
+            INSERT INTO public.municipio (id, nome) VALUES(86, 'NOVO MUNDO');
+            INSERT INTO public.municipio (id, nome) VALUES(87, 'NOVO SANTO ANTÔNIO');
+            INSERT INTO public.municipio (id, nome) VALUES(88, 'NOVO SÃO JOAQUIM');
+            INSERT INTO public.municipio (id, nome) VALUES(89, 'PARANAÍTA');
+            INSERT INTO public.municipio (id, nome) VALUES(90, 'PARANATINGA');
+            INSERT INTO public.municipio (id, nome) VALUES(91, 'PEDRA PRETA');
+            INSERT INTO public.municipio (id, nome) VALUES(92, 'PEIXOTO DE AZEVEDO');
+            INSERT INTO public.municipio (id, nome) VALUES(93, 'PLANALTO DA SERRA');
+            INSERT INTO public.municipio (id, nome) VALUES(94, 'POCONÉ');
+            INSERT INTO public.municipio (id, nome) VALUES(95, 'PONTAL DO ARAGUAIA');
+            INSERT INTO public.municipio (id, nome) VALUES(96, 'PONTE BRANCA');
+            INSERT INTO public.municipio (id, nome) VALUES(97, 'PONTES E LACERDA');
+            INSERT INTO public.municipio (id, nome) VALUES(98, 'PORTO ALEGRE DO NORTE');
+            INSERT INTO public.municipio (id, nome) VALUES(99, 'PORTO DOS GAÚCHOS');
+            INSERT INTO public.municipio (id, nome) VALUES(100, 'PORTO ESPERIDIÃO');
+            INSERT INTO public.municipio (id, nome) VALUES(101, 'PORTO ESTRELA');
+            INSERT INTO public.municipio (id, nome) VALUES(102, 'POXORÉU');
+            INSERT INTO public.municipio (id, nome) VALUES(103, 'PRIMAVERA DO LESTE');
+            INSERT INTO public.municipio (id, nome) VALUES(104, 'QUERÊNCIA');
+            INSERT INTO public.municipio (id, nome) VALUES(105, 'RESERVA DO CABAÇAL');
+            INSERT INTO public.municipio (id, nome) VALUES(106, 'RIBEIRÃO CASCALHEIRA');
+            INSERT INTO public.municipio (id, nome) VALUES(107, 'RIBEIRÃOZINHO');
+            INSERT INTO public.municipio (id, nome) VALUES(108, 'RIO BRANCO');
+            INSERT INTO public.municipio (id, nome) VALUES(109, 'RONDOLÂNDIA');
+            INSERT INTO public.municipio (id, nome) VALUES(110, 'RONDONÓPOLIS');
+            INSERT INTO public.municipio (id, nome) VALUES(111, 'ROSÁRIO OESTE');
+            INSERT INTO public.municipio (id, nome) VALUES(112, 'SALTO DO CÉU');
+            INSERT INTO public.municipio (id, nome) VALUES(113, 'SANTA CARMEM');
+            INSERT INTO public.municipio (id, nome) VALUES(114, 'SANTA CRUZ DO XINGU');
+            INSERT INTO public.municipio (id, nome) VALUES(115, 'SANTA RITA DO TRIVELATO');
+            INSERT INTO public.municipio (id, nome) VALUES(116, 'SANTA TEREZINHA');
+            INSERT INTO public.municipio (id, nome) VALUES(117, 'SANTO AFONSO');
+            INSERT INTO public.municipio (id, nome) VALUES(118, 'SANTO ANTÔNIO DO LESTE');
+            INSERT INTO public.municipio (id, nome) VALUES(119, 'SANTO ANTÔNIO DO LEVERGER');
+            INSERT INTO public.municipio (id, nome) VALUES(120, 'SÃO FÉLIX DO ARAGUAIA');
+            INSERT INTO public.municipio (id, nome) VALUES(121, 'SÃO JOSÉ DO POVO');
+            INSERT INTO public.municipio (id, nome) VALUES(122, 'SÃO JOSÉ DO RIO CLARO');
+            INSERT INTO public.municipio (id, nome) VALUES(123, 'SÃO JOSÉ DO XINGU');
+            INSERT INTO public.municipio (id, nome) VALUES(124, 'SÃO JOSÉ DOS QUATRO MARCOS');
+            INSERT INTO public.municipio (id, nome) VALUES(125, 'SÃO PEDRO DA CIPA');
+            INSERT INTO public.municipio (id, nome) VALUES(126, 'SAPEZAL');
+            INSERT INTO public.municipio (id, nome) VALUES(127, 'SERRA NOVA DOURADA');
+            INSERT INTO public.municipio (id, nome) VALUES(128, 'SINOP');
+            INSERT INTO public.municipio (id, nome) VALUES(129, 'SORRISO');
+            INSERT INTO public.municipio (id, nome) VALUES(130, 'TABAPORÃ');
+            INSERT INTO public.municipio (id, nome) VALUES(131, 'TANGARÁ DA SERRA');
+            INSERT INTO public.municipio (id, nome) VALUES(132, 'TAPURAH');
+            INSERT INTO public.municipio (id, nome) VALUES(133, 'TERRA NOVA DO NORTE');
+            INSERT INTO public.municipio (id, nome) VALUES(134, 'TESOURO');
+            INSERT INTO public.municipio (id, nome) VALUES(135, 'TORIXORÉU');
+            INSERT INTO public.municipio (id, nome) VALUES(136, 'UNIÃO DO SUL');
+            INSERT INTO public.municipio (id, nome) VALUES(137, 'VALE DE SÃO DOMINGOS');
+            INSERT INTO public.municipio (id, nome) VALUES(138, 'VÁRZEA GRANDE');
+            INSERT INTO public.municipio (id, nome) VALUES(139, 'VERA');
+            INSERT INTO public.municipio (id, nome) VALUES(140, 'VILA BELA DA SANTÍSSIMA TRINDADE');
+            INSERT INTO public.municipio (id, nome) VALUES(141, 'VILA RICA');
         </sql>
     </changeSet>
 

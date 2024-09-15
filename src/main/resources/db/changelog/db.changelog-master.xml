@@ -15,4 +15,5 @@
     <include file="db/changelog/db.changelog-0.0.10.xml"/>  <!-- create table unidade_administrativa  -->
     <include file="db/changelog/db.changelog-0.0.11.xml"/>  <!-- seed table unidade_administrativa  -->
     <include file="db/changelog/db.changelog-0.0.12.xml"/>  <!-- create table malote  -->
+    <include file="db/changelog/db.changelog-0.0.13.xml"/>  <!-- create table controle_de_acesso  -->
 </databaseChangeLog>

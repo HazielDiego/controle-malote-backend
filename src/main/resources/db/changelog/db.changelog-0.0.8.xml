@@ -21,6 +21,9 @@
         <insert tableName="tipo_unidade_administrativa" catalogName="public">
             <column name="nome" value="AGENCIA VIP" />
         </insert>
+        <insert tableName="tipo_unidade_administrativa" catalogName="public">
+            <column name="nome" value="SEDE" />
+        </insert>
     </changeSet>
 
 </databaseChangeLog>

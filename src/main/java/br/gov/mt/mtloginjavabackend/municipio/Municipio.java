@@ -1,13 +1,11 @@
 package br.gov.mt.mtloginjavabackend.municipio;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import br.gov.mt.mtloginjavabackend.malote.Malote;
+import br.gov.mt.mtloginjavabackend.unidadeAdministrativa.UnidadeAdministrativa;
+import jakarta.persistence.*;
+import lombok.*;
+
+import java.util.List;
 
 @Entity
 @Data
@@ -20,4 +18,8 @@ public class Municipio {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String nome;
+    @OneToMany(mappedBy = "municipio")
+    @EqualsAndHashCode.Exclude
+    @ToString.Exclude
+    private List<UnidadeAdministrativa> listaUnidadeAdministrativa;
 }

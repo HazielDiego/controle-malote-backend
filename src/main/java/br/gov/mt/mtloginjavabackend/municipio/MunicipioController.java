@@ -1,5 +1,6 @@
 package br.gov.mt.mtloginjavabackend.municipio;
 
+import br.gov.mt.mtloginjavabackend.municipio.dto.MunicipioDto;
 import br.gov.mt.mtloginjavabackend.security.utils.MyUtils;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

@@ -1,4 +1,6 @@
-package br.gov.mt.mtloginjavabackend.municipio;
+package br.gov.mt.mtloginjavabackend.municipio.dto;
+
+import br.gov.mt.mtloginjavabackend.municipio.Municipio;
 
 public record MunicipioDto(
         Long id,
